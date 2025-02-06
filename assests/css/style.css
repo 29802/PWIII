@@ -1,0 +1,21 @@
+:root {
+    --primary: #591C21;
+    --secondary:#8C1F28;
+    --tertiary:#0D0D0D;
+    --quaternary:#fd1d1d;
+}
+.bg-custom{
+    background: var(--secondary);
+    background: linear-gradient(90deg, var(--primary) 0%, var(--quaternary) 54%, var(--secondary) 100%);
+}
+
+.navbar-brand,
+.nav-link{
+    color: aliceblue;
+    transform: all 0.5;
+}
+
+.nav-brand:hover,
+.nav-link:hover{
+    color: black;
+}
